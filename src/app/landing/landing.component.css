@@ -1,0 +1,16 @@
+.who-me,
+.about {
+    padding: 150px 50px;
+}
+
+fa-icon {
+    font-size: 30px;
+    color: #fff;
+}
+
+.banner-main,
+.about-me,
+.studies,
+.projects {
+    background-color: black !important;
+}

@@ -1,0 +1,87 @@
+<div class="banner-main">
+    <div class="container p-0 m-0">
+        <div class="row">
+            <div class="me col-6">
+                <img src="assets/images/img-bnn.jpg" alt="">
+            </div>
+            <div class="who-me col-6">
+                <h2>Hi, I'm Sebastian Cifuentes</h2>
+                <h1>Welcome to my portafolio</h1>
+                <fa-icon class="pr-4" [icon]="faGithub"></fa-icon>
+                <fa-icon class="pr-4" [icon]="faTwitter"></fa-icon>
+                <fa-icon class="pr-4" [icon]="faInstagram"></fa-icon>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="about-me p-5">
+    <div class="container">
+        <div class="row">
+            <div class="about col-md-6">
+                <h1>
+                    < / about me>
+                </h1>
+            </div>
+            <div class="about-description col-md-6">
+                <h2>Hey!</h2>
+                <p>I'm a Junior developer from Bogotá, Colombia.</p>
+                <p>
+                    I read books of Stephen King and Mario Mendoza, I like the drama and suspense in the books and of course also in TV series. Every day I like to learn some new of course about technology, I'm a autonomous person and for that doing courses the way online
+                    in various platforms. When opportunity to teach I like with the greatest pleasure, there are people than start in a world of technology but they not know
+                </p>
+                <p>
+                    I like to do exercise every night in a park or in a gym, really I like more in the park is in free air.
+                </p>
+                <p>
+                    Start in the programming since 4 years ago with Wordpress and JavaScript
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="studies">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>What I've work in technology?</h1>
+            </div>
+        </div>
+        <div class="row p-4" *ngFor="let skill of skills">
+            <div class="col-md-2" align="center">
+                <img class="img-skill" [src]="skill.img" alt="" width="50">
+            </div>
+            <div class="col-md-10 vertical-center">
+                <mat-progress-bar mode="determinate" [value]="skill.value"></mat-progress-bar>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="projects">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>My projects</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <mat-card>
+                    <mat-card-header>
+                        <mat-card-title>Shiba Inu</mat-card-title>
+                        <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                    </mat-card-header>
+                    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                    <mat-card-content>
+                        <p>
+                            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
+                        </p>
+                    </mat-card-content>
+                    <mat-card-actions>
+                        <button mat-raised-button color="primary">LIKE</button>
+                        <button mat-raised-button color="primary">SHARE</button>
+                    </mat-card-actions>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div>
