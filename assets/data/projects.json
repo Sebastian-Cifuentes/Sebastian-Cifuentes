@@ -1,0 +1,43 @@
+[{
+        "name": "SaveIt",
+        "description": "In this app the user can create a orden with a restaurant that nearby 5km of his",
+        "technologies": [{
+            "name": "Ionic 5"
+        }, {
+            "name": "API request"
+        }],
+        "image": "assets/images/saveitapp.png",
+        "url": "#",
+        "viewProject": "In development"
+    },
+    {
+        "name": "Admin pro",
+        "description": "This is a project as admin test",
+        "technologies": [{
+                "name": "Angular 8"
+            },
+            {
+                "name": "Node Js"
+            },
+            {
+                "name": "MongoDB"
+            },
+            {
+                "name": "JSON"
+            }
+        ],
+        "image": "assets/images/adminpro.png",
+        "url": "https://sebastian-cifuentes.github.io/adminpro/",
+        "viewProject": "View project"
+    },
+    {
+        "name": "SPA",
+        "description": "This is a project in where can see heroes and search",
+        "technologies": [{
+            "name": "Angular 8"
+        }],
+        "image": "assets/images/spa.png",
+        "url": "https://sebastian-cifuentes.github.io/02.-spa/",
+        "viewProject": "View project"
+    }
+]
